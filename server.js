@@ -19,15 +19,12 @@ function pad02(input) {
 }
 
 function getFormattedDateNow() {
-    var date = new Date();
-    var str = date.getFullYear() + "-" + pad02(date.getMonth() + 1) + "-" + pad02(date.getDate()) + " " + pad02(date.getHours()) + ":" + pad02(date.getMinutes()) + ":" + pad02(date.getSeconds());
-
-    return str;
+    const date = new Date();
+    return date.getFullYear() + "-" + pad02(date.getMonth() + 1) + "-" + pad02(date.getDate()) + " " + pad02(date.getHours()) + ":" + pad02(date.getMinutes()) + ":" + pad02(date.getSeconds());
 }
 
-var rid = 0;
+let rid = 0;
 server.use((req, res, next) => {
-    console.error(req.body)
     if (req.method === 'POST') {
         req.body.time = req.body.time ? req.body.time : getFormattedDateNow();
         if (req.originalUrl === '/attendances') {
