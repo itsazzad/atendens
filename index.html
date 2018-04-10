@@ -253,7 +253,6 @@
             seedAttendances()
         }
     });
-
 </script>
 <script>
     $.ajax({
@@ -331,7 +330,7 @@
                     fetchAttendances(person, monthIndex)
                 }
             }
-        })
+        });
         reportModal.on('hidden.bs.modal', function (event) {
             const modal = $(this);
             modal.find('.modal-title .report-person').text('');
