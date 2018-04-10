@@ -1,6 +1,4 @@
 const jsonServer = require('json-server');
-const fs = require('fs');
-fs.createReadStream('db.example.json').pipe(fs.createWriteStream('db.json'));
 
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
