@@ -1,76 +1,65 @@
 {
-  "people": [
-    {
-      "id": 1,
-      "name": "Jindřich Fiedler",
-      "email": "fiedler@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Sales, project management, co-owner"
-    },
-    {
-      "id": 2,
-      "name": "Zdeněk Mágr",
-      "email": "magr@fiedler-magr.cz",
-      "phone": "+420 387 200 588",
-      "role": "Software developement, co-owner"
-    },
-    {
-      "id": 3,
-      "name": "Jindřich Běhounek",
-      "email": "behounek@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Delivery and technical consulting"
-    },
-    {
-      "id": 4,
-      "name": "Jindřich Fiedler junior",
-      "email": "jfiedler@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Software development"
-    },
-    {
-      "id": 5,
-      "name": "Hynek Pavel",
-      "email": "hynek.pavel@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Hardware development"
-    },
-    {
-      "id": 6,
-      "name": "Vlaďka Jirkalová",
-      "email": "jirkalova@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Sales"
-    },
-    {
-      "id": 7,
-      "name": "Šárka Troupová",
-      "email": "troupova@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Accounting"
-    },
-    {
-      "id": 8,
-      "name": "Zdeněk Franta",
-      "email": "franta@fiedler-magr.cz",
-      "phone": "+420 386 358 274",
-      "role": "Support"
-    },
-    {
-      "id": 9,
-      "name": "Vladimír Turek",
-      "email": "",
-      "phone": "386 358 274",
-      "role": "Production and manufacturing"
-    },
-    {
-      "id": 10,
-      "name": "Jiří Šachl",
-      "email": "",
-      "phone": "386 358 274",
-      "role": "Production and manufacturing"
-    }
-  ],
+  "people": [{
+  "id": 1,
+  "name": "Gal Haselup",
+  "email": "ghaselup0@google.co.jp",
+  "phone": "306-638-1591",
+  "role": "VP Product Management"
+}, {
+  "id": 2,
+  "name": "Starlin Ikin",
+  "email": "sikin1@paypal.com",
+  "phone": "510-759-5989",
+  "role": "Design Engineer"
+}, {
+  "id": 3,
+  "name": "Tabby Charrett",
+  "email": "tcharrett2@latimes.com",
+  "phone": "685-981-6506",
+  "role": "Librarian"
+}, {
+  "id": 4,
+  "name": "Serene Comellini",
+  "email": "scomellini3@loc.gov",
+  "phone": "159-343-1194",
+  "role": "Human Resources Manager"
+}, {
+  "id": 5,
+  "name": "Haley Dangl",
+  "email": "hdangl4@wisc.edu",
+  "phone": "243-103-1510",
+  "role": "Office Assistant IV"
+}, {
+  "id": 6,
+  "name": "Robby Hadley",
+  "email": "rhadley5@cocolog-nifty.com",
+  "phone": "682-764-1612",
+  "role": "Community Outreach Specialist"
+}, {
+  "id": 7,
+  "name": "Carla Blayd",
+  "email": "cblayd6@dailymotion.com",
+  "phone": "194-647-1059",
+  "role": "Software Engineer I"
+}, {
+  "id": 8,
+  "name": "Kayley Hartzog",
+  "email": "khartzog7@apache.org",
+  "phone": "376-150-6209",
+  "role": "Senior Cost Accountant"
+}, {
+  "id": 9,
+  "name": "Bernelle Penella",
+  "email": "bpenella8@cdc.gov",
+  "phone": "280-137-0108",
+  "role": "Business Systems Development Analyst"
+}, {
+  "id": 10,
+  "name": "Korney Giraudel",
+  "email": "kgiraudel9@theatlantic.com",
+  "phone": "589-872-8197",
+  "role": "Computer Systems Analyst II"
+}],
   "attendances": [
   ]
 }
